@@ -1,0 +1,19 @@
+a.	Determine the number formed by adding all even elements and subtracting all odd numbers of the list.
+Ex: numberFormed ([1, 2, 3, 4, 5, 6]) = 2 + 4 + 6 – 1 – 3 – 5 = 3
+numberFormed (L1, L2, L3, …, LN) = if N = 0, then return 0
+  if L1 % 2 == 0 then L1 + numberFormed (L2, L3, …, LN)
+  if L1 % 2 == 1 then -L1 + numberFormed (L2, L3, …, LN)
+
+
+
+b.	Determine difference of two sets represented as lists.
+
+difference ([L1 L2, L3, …, LN], [l1, l2, l3, …, ln]) = if N = 0 then return []
+							 if isInList ([l1, l2, l3, …, ln], L1) == false then
+							            return L1 U difference ([L2, L3, …, LN], [l1, l2, l3, …, ln])
+							 otherwise return difference ([L2, L3, …, LN], [l1, l2, l3, …, ln])
+
+
+isInList([L1, L2, L3, …, LN], E) = if N = 0 then return false
+				         if L1 == E then return true
+				         otherwise return isInList([L2, L3, …, LN], E);

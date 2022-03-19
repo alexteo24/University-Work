@@ -1,0 +1,16 @@
+a. Replace all occurrences of an element from a list with another element e.
+
+replaceOccurences([L1, L2, ..., LN], e, repl): if N = 0, return []
+                                        if L1 == e, return repl U replaceOccurences([L2, L3, ..., LN], e, repl)
+                                        otherwise, return L1 U replaceOccurences([L2, L3, ..., LN], e, repl)
+
+
+b. For a heterogeneous list, formed from integer numbers and list of numbers, define a predicate to determine the maximum number of the list, and then to replace this value in sublists with the maximum value of sublist.Eg.: [1, [2, 5, 7], 4, 5, [1, 4], 3, [1, 3, 5, 8, 5, 4], 5, [5, 9, 1], 2] =>[1, [2, 7, 7], 4, 5, [1, 4], 3, [1, 3, 8, 8, 8, 4], 5, [9, 9, 1], 2]
+
+getMaximum([L1, L2, ..., LN], max): if N = 0, return max
+                                    if L1 is not list and L1 > max, return getMaximum([L2, L3, ... LN], L1)
+                                    otherwise return getMaximum([L2, L3, ..., LN], max)
+
+replaceInSublists([L1, L2, ..., LN]): if N = 0, return []
+                                    if L1 is list, return replaceOccurences(L1, getMaximum([L1, L2, ..., LN]), max), getMaximum(L1, Max)) U replaceInSublists([L2, L3, ..., LN])
+                                    otherwise return replaceInSublists([L2, L3, ..., LN])

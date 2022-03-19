@@ -1,0 +1,3 @@
+C:/Users/Teo/CLionProjects/DSA_Problem_1_Lab4v2/cmake-build-debug-mingw/CMakeFiles/DSA_Problem_1_Lab4.dir
+C:/Users/Teo/CLionProjects/DSA_Problem_1_Lab4v2/cmake-build-debug-mingw/CMakeFiles/edit_cache.dir
+C:/Users/Teo/CLionProjects/DSA_Problem_1_Lab4v2/cmake-build-debug-mingw/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Teo/CLionProjects/PFL/Lab1/lista.h
+
+C:/Users/Teo/CLionProjects/PFL/Lab1/main.cpp
+lista.h
+C:/Users/Teo/CLionProjects/PFL/Lab1/lista.h
+iostream
+-
+

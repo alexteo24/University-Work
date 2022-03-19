@@ -1,0 +1,138 @@
+; 2
+; a) Write a function to return the product of two vectors.
+; https://en.wikipedia.org/wiki/Dot_product
+
+;dotProduct([l1, l2, ..., ln], [L1, L2, ..., LN]):
+    ; if n = 0 and N = 0, return 
+    ; else return l1 * L1 + dotProduct([l2, l3, ..., ln], [L2, L3, ..., LN])
+
+(defun dotProduct (a b)
+    (cond ((null a) 0)
+        ((null b) 0)
+        (T(+ (* (car a) (car b)) (dotProduct (cdr a) (cdr b))))
+    )
+
+)
+(print (dotProduct '(3 2 2) '(4 7 1)))
+
+
+;b) Write a function to return the depth of a list. Example: the depth of a 
+;linear list is 1.
+
+;getMax(a, b): if a > b return a 
+            ; else return b
+
+(defun getMax (a b)
+    (cond ((> a b) a) 
+        (T b)
+    )
+)
+
+;getDepth([l1, l2, ..., ln], d): if n = 0, return d
+                            ; if l1 is list, getMax((getDepth(l1, d + 1)),
+                                                    ;(getDepth([l2, ..., ln], d)
+                            ; otherwise return getDepth([l2, ..., ln], d)
+
+(defun getDepth (l d)
+    (cond ((null l) d)
+        ((listp (car l)) (getMax (getDepth (car l) (1+ d)) (getDepth (cdr l) d)))
+        (T (getDepth (cdr l) d))
+    )
+)
+
+
+(print (getDepth '(5 6 2 (6 2 (9 1 (9 8) 5) 2)) 1))
+
+;c) Write a function to sort a linear list without keeping the double values
+
+
+;insert([L1, L2, ..., Ln], e): if N = 0, return [e]
+                            ; if e = L1, return [L1, L2, ..., LN]
+                            ; if e < L1, return e U [L1, L2, ..., LN]
+                            ; otherwise, return L1 U insert([L2, ..., LN], e)
+
+
+(defun insert (l e)
+    (cond
+        ((null l) (list e))
+        ((equal (car l) e) l)
+        ((< e (car l)) (cons e l))
+        (T (cons (car l) (insert (cdr l) e)))
+    )
+)
+
+;sortare([l1, l2, ..., ln]): if n = 0, return []
+                        ; otherwise insert(sortare([l2, ..., ln]), l1)
+
+(defun sortare (l)
+    (cond
+        ((null l) nil)
+        (T (insert (sortare (cdr l)) (car l)))
+    )
+)
+
+(print (sortare '(9 8 9 8 2 7 5 0 1 3 4)))
+
+; d) Write a function to return the intersection of two sets.
+
+;isInList([l1, l2, ..., ln], e): if n = 0, return false
+                            ; if l1 = e, return true
+                            ; otherwise, return isInList([l2, ..., ln], e)
+
+(defun isInList (l e)
+    (cond
+        ((null l) nil)
+        ((equal (car l) e) T)
+        (T (isInList (cdr l) e))
+     )
+)
+
+
+;cehckIfSet([l1, l2, ..., ln]): if n = 0, return true
+                            ; if isInList([l2, ..., ln], l1) = true, return false
+                            ; otherwise return checkIfSet([l2, ..., ln])
+(defun checkIfSet(l)
+    (cond
+        ((null l) T)
+        ((isInList (cdr l) (car l)) nil)
+        (T (checkIfSet (cdr l)))
+    )
+)
+
+;intersectionSets([l1, l2, ..., ln], [L1, L2, ..., LN]):
+;           if n = 0 or N = 0, return
+;           if isInList([L1, L2, ..., LN], l1),
+;               return l1 U intersectionSets([l2, ..., ln], [L1, L2, ..., LN])
+;           otherwise, return intersectionSets([l2, ..., ln], [L1, L2, ..., LN])
+
+(defun intersectionSets (l k)
+    (cond
+        ((or (null l) (null k)) nil)
+        ((isInList k (car l)) (cons (car l) (intersectionSets (cdr l) 
+            k)))
+        (T (intersectionSets (cdr l) k))
+    )
+)
+
+;wrapIntersectionSets([l1, l2, ..., ln], [L1, L2, ..., LN]):
+;       if checkIfList([l1, l2, ..., ln]) and checkIfList([L1, L2, ..., LN])
+;                   return intersectionSets[l1, l2, ..., ln], [L1, L2, ..., LN]
+;       otherwise, return false
+
+(defun wrapIntersectionSets (l k)
+    (cond 
+        ((and (checkIfSet l) (checkIfSet k)) (intersectionSets l k))
+        (T nil)
+    )
+)
+(print (wrapIntersectionSets '(1 2 3 4 5) '(3 4 5 3 6 7 9)))
+
+
+
+
+
+
+
+
+
+

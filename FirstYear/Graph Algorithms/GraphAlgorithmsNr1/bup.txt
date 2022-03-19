@@ -1,0 +1,55 @@
+def read_graph_from_file(A_graph, file_name):
+    start_time = time.time()
+    try:
+        dictionary_in = {}
+        dictionary_out = {}
+        dictionary_costs = {}
+        file = open(file_name, 'r')
+        line = file.readline().strip()
+        number_of_vertices, number_of_edges = line.split(' ')
+        line = file.readline().strip()
+        quantity = int(number_of_vertices)
+        for i in range(0, quantity + 1):
+            dictionary_in[i] = []
+            dictionary_out[i] = []
+        # verifier = [0] * (quantity + 1)
+        while len(line) > 0:
+            start_point, end_point, cost = line.split(' ')
+            start_point = int(start_point)
+            end_point = int(end_point)
+            cost = int(cost)
+            # if verifier[start_point] % 2 == 0:
+            #     A_graph.vertices.append(start_point)
+            #     dictionary_out[start_point] = []
+            #     verifier[start_point] += 1
+            # if verifier[end_point] - 2 < 0:
+            #     A_graph.vertices.append(end_point)
+            #     dictionary_in[end_point] = []
+            #     verifier[end_point] += 2
+            dictionary_in[end_point].append(start_point)
+            dictionary_out[start_point].append(end_point)
+            dictionary_costs[(start_point, end_point)] = cost
+            # if start_point not in A_graph.vertices:
+            #     A_graph.vertices.append(start_point)
+            # if end_point not in A_graph.vertices:
+            #     A_graph.vertices.append(end_point)
+            # if end_point in dictionary_in:
+            #     dictionary_in[end_point].append(start_point)
+            # else:
+            #     dictionary_in[end_point] = [start_point]
+            # if start_point in dictionary_out:
+            #     dictionary_out[start_point].append(end_point)
+            # else:
+            #     dictionary_out[start_point] = [end_point]
+            # dictionary_costs[(start_point, end_point)] = cost
+            line = file.readline().strip()
+        file.close()
+        A_graph.number_vertices = int(number_of_vertices)
+        A_graph.number_edges = int(number_of_edges)
+        A_graph.dictionary_in = dictionary_in
+        A_graph.dictionary_out = dictionary_out
+        A_graph.dictionary_costs = dictionary_costs
+    except Exception:
+        raise Exception("There was an error while reading the graph!")
+    print(file_name)
+    print(time.time()-start_time)

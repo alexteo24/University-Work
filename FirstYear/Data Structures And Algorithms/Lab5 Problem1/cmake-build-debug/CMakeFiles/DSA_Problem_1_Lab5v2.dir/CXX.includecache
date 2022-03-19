@@ -1,0 +1,54 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/App.cpp
+iostream
+-
+Matrix.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/Matrix.h
+ExtendedTest.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ExtendedTest.h
+ShortTest.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ShortTest.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ExtendedTest.cpp
+assert.h
+-
+Matrix.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/Matrix.h
+ExtendedTest.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ExtendedTest.h
+iostream
+-
+exception
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ExtendedTest.h
+ExtendedTest.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ExtendedTest.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/Matrix.cpp
+Matrix.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/Matrix.h
+exception
+-
+iostream
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/Matrix.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ShortTest.cpp
+assert.h
+-
+Matrix.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/Matrix.h
+iostream
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ShortTest.h
+

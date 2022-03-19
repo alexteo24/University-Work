@@ -1,0 +1,15 @@
+5. Two integers, n and m are given. Write a predicate to determine all possible sequences of numbers 
+from 1 to n, such that between any two numbers from consecutive positions, the absolute difference 
+to be >= m. 
+
+absoluteDifference(a, b): if a > b return a - b
+                          else return b - a
+
+checkSequence(l1, ..., ln, m): if absoluteDifference(l1, l2) >=m && n == 2 return true
+                           if diff(l1, l2) >=m && n > 2, checkSequence(l2, ..., ln, m)
+                           otherwise return false
+
+
+generateSequence(N, I): if I == N + 1, return []
+                        if I <= N, return I U generateSequence(N, I+1)
+                        if I <= N, return generateSequence(N, I+1)

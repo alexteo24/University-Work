@@ -1,0 +1,68 @@
+;l2, 4
+Convert a tree of type (2) to type (1)
+
+;lipire (l1, l2, l3, ..., ln, L1, L2, ..., LN): if N = 0, return []
+;                               if n = 0, L1 + lipire(l1..., ln, L2, ..., LN)
+;                               otherwise l1 + lipire(l2, ..., ln , L1, ..., LN)
+
+
+(defun lipire(d s)
+    (cond
+        ((null s) nil)
+        ((null d) (cons (car s) (lipire d (cdr s))))
+        (T (cons (car d) (lipire (cdr d) s)))
+    )
+)
+
+
+;transform(tree): if tree is empty, return []
+;               (root, 0), if sublist_child_1 is empty
+;               (root, 1) + transform(sublist_child_1), if sublist_child_2 is empty
+;               otherwise (root, 2) + transform(sublist_child_1) + transform(sublist_child_2)
+
+
+(defun transform(l)
+    (cond 
+        ((null l) nil)
+        ((null (cadr l)) (lipire (list (car l)) (list 0) ))
+        ((null (caddr l)) (lipire (lipire (list (car l)) (list 1)) (transform (cadr l))))
+        (t (lipire (lipire (list (car l)) (list 2)) (lipire(transform (cadr l)) (transform (caddr l)))))
+    )
+)
+
+(print (transform '(A (B) (C (D) (E)))))
+(print (transform '(A(B(D)(E(F(G)(H))))(C(I(J(K)))))))
+
+
+
+
+
+L3, 7
+
+
+;Write a function that substitutes an element E with all elements of a list L1 at all levels of a given list L
+
+;copy(l1, l2, ..., ln): if n = 0, return []
+;                       otherwise l1 + copy(l2, ..., ln)
+
+(defun copy (l)
+    (cond
+        ((null l) nil)
+        (t (cons (car l) (copy (cdr l))))
+    )
+)
+
+;l = (l1, l2, ..., ln)
+;replacing(l, e, rlist): union(replacing(li, e, rlist)), if l is a list, i = 1,n
+;                       copy(l1), if l = e
+;                       l, otherwise
+
+(defun replacing (l e l1)
+    (cond
+        ((listp l) (list (mapcan #'(lambda (lst) (replacing lst e l1)) l)))
+        ((equal l e) (copy l1)) ; copy required to avoid losing l1 due to destructive behaviour of mapcan
+        (T (list l))
+    )
+)
+
+(print (car (replacing '(1 2 3 4 1 (1)) 1 '(5 5))))
