@@ -1,0 +1,168 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Console/Console.c
+Console.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Console/Console.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Console/Console.h
+../Service/Service.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/Service.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/Domain.c
+Domain.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/Domain.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/Domain.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/TestsDomain.c
+TestsDomain.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/TestsDomain.h
+Domain.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/Domain.h
+assert.h
+-
+string.h
+-
+stdio.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/TestsDomain.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/DynamicArray.c
+DynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/DynamicArray.h
+stdlib.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/DynamicArray.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/TestsDynamicArray.c
+TestsDynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/TestsDynamicArray.h
+DynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/DynamicArray.h
+assert.h
+-
+stdio.h
+-
+../Domain/Domain.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/Domain.h
+string.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/TestsDynamicArray.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/Repository.c
+Repository.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/Repository.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/Repository.h
+../DynamicArray/DynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/DynamicArray.h
+stdbool.h
+-
+../Domain/Domain.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/Domain.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/TestsRepository.c
+TestsRepository.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/TestsRepository.h
+assert.h
+-
+stdbool.h
+-
+stdio.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/TestsRepository.h
+Repository.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/Repository.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/Service.c
+Service.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/Service.h
+stdlib.h
+-
+string.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/Service.h
+../Repository/Repository.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/Repository.h
+../UndoRedo/UndoRedo.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/UndoRedo.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/TestsService.c
+TestsService.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/TestsService.h
+stdio.h
+-
+../UndoRedo/UndoRedo.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/UndoRedo.h
+assert.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/TestsService.h
+Service.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/Service.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Start.c
+Console/Console.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Console/Console.h
+./Domain/TestsDomain.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Domain/TestsDomain.h
+./DynamicArray/TestsDynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/TestsDynamicArray.h
+./Repository/TestsRepository.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/TestsRepository.h
+./Service/TestsService.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/TestsService.h
+./UndoRedo/TestsUndoRedo.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/TestsUndoRedo.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/TestsUndoRedo.c
+TestsUndoRedo.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/TestsUndoRedo.h
+stdio.h
+-
+assert.h
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/TestsUndoRedo.h
+../Service/Service.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Service/Service.h
+UndoRedo.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/UndoRedo.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/UndoRedo.c
+UndoRedo.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/UndoRedo.h
+stdlib.h
+-
+../Repository/Repository.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/Repository/Repository.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/UndoRedo/UndoRedo.h
+../DynamicArray/DynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 2-3/DynamicArray/DynamicArray.h
+

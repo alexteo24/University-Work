@@ -1,0 +1,174 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleAdministrator/ConsoleAdministrator.cpp
+ConsoleAdministrator.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleAdministrator/ConsoleAdministrator.h
+iostream
+-
+iomanip
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleAdministrator/ConsoleAdministrator.h
+../ServiceAdmin/ServiceAdministrator.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceAdmin/ServiceAdministrator.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleUser/ConsoleUser.cpp
+iostream
+-
+ConsoleUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleUser/ConsoleUser.h
+regex
+-
+iomanip
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleUser/ConsoleUser.h
+../ServiceUser/ServiceUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ServiceUser.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Domain/Coat.cpp
+Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Domain/Coat.h
+iomanip
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Domain/iomanip
+sstream
+-
+vector
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Domain/Coat.h
+string
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/ExceptionsRepoCoats.cpp
+ExceptionsRepoCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/ExceptionsRepoCoats.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/ExceptionsRepoCoats.h
+exception
+-
+string
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoats.cpp
+iostream
+-
+RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoats.h
+algorithm
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoats.h
+vector
+-
+../Domain/Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Domain/Coat.h
+ExceptionsRepoCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/ExceptionsRepoCoats.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoatsFile.cpp
+RepositoryCoatsFile.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoatsFile.h
+fstream
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoatsFile.h
+RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoats.h
+../Validators/ValidatorCoat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Validators/ValidatorCoat.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryShopping/RepostioryShopping.cpp
+fstream
+-
+RepostioryShopping.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryShopping/RepostioryShopping.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryShopping/RepostioryShopping.h
+vector
+-
+../Domain/Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Domain/Coat.h
+../RepositoryCoats/RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoats.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceAdmin/ServiceAdministrator.cpp
+iostream
+-
+ServiceAdministrator.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceAdmin/ServiceAdministrator.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceAdmin/ServiceAdministrator.h
+string
+-
+../RepositoryCoats/RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoats.h
+../RepositoryCoats/RepositoryCoatsFile.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoatsFile.h
+../Validators/ValidatorCoat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Validators/ValidatorCoat.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ServiceUser.cpp
+ServiceUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ServiceUser.h
+algorithm
+-
+iostream
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ServiceUser.h
+../RepositoryShopping/RepostioryShopping.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryShopping/RepostioryShopping.h
+../RepositoryCoats/RepositoryCoatsFile.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoatsFile.h
+ShoppingExceptions.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ShoppingExceptions.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ShoppingExceptions.cpp
+ShoppingExceptions.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ShoppingExceptions.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ShoppingExceptions.h
+exception
+-
+string
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Validators/ValidatorCoat.cpp
+ValidatorCoat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Validators/ValidatorCoat.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Validators/ValidatorCoat.h
+string
+-
+regex
+-
+exception
+-
+../Domain/Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/Domain/Coat.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/main.cpp
+iostream
+-
+RepositoryCoats/RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoats.h
+RepositoryCoats/RepositoryCoatsFile.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryCoats/RepositoryCoatsFile.h
+RepositoryShopping/RepostioryShopping.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/RepositoryShopping/RepostioryShopping.h
+ServiceAdmin/ServiceAdministrator.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceAdmin/ServiceAdministrator.h
+ServiceUser/ServiceUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ServiceUser/ServiceUser.h
+ConsoleAdministrator/ConsoleAdministrator.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleAdministrator/ConsoleAdministrator.h
+ConsoleUser/ConsoleUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 6-7/ConsoleUser/ConsoleUser.h
+

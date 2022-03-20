@@ -1,0 +1,12 @@
+M;IRIS;LFKEJSG;https://www.trenchiris.com;135;10
+S;PEA;JDEAXMF;https://www.trenchpea.com;130;7
+L;DARK BLUE;ITNVSFA;https://www.trenchdblue.com;95;15
+XL;COBALT;FJSNVUR;https://www.trenchcobalt.com;150;12
+M;RED;GKDNEBX;https://www.trenchred.com;160;13
+XXL;BLACK;ONGDSOI;https://www.trenchblack.com;190;20
+XL;LEOPARD;OBISGRC;https://www.trenchleopard.com;120;30
+M;BUTTERCREAM;PHSJIDG;https://www.trenchbuttercream.com;390;9
+S;GRAY;OGIHASQ;https://www.trenchgray.com;220;11
+XXXL;CHESTNUT;FEOIAHF;https://www.trenchchestnut.com;2000;5
+XL;NOIR;QWERTYU;https://www.trenchnoir.com;110;10
+XL;FIRE;POIUYTR;https://www.trenchfire.com;100;4

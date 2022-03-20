@@ -1,0 +1,10 @@
+//
+// Created by Teo on 3/14/2021.
+//
+
+#ifndef A23_ALEXTEO24_TESTSDYNAMICARRAY_H
+#define A23_ALEXTEO24_TESTSDYNAMICARRAY_H
+
+void testDynamicArray();
+
+#endif //A23_ALEXTEO24_TESTSDYNAMICARRAY_H

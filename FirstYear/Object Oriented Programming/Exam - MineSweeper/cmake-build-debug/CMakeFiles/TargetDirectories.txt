@@ -1,0 +1,4 @@
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Exam - MineSweeper/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Exam - MineSweeper/cmake-build-debug/CMakeFiles/Exam___MineSweeper.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Exam - MineSweeper/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Exam - MineSweeper/cmake-build-debug/CMakeFiles/Exam___MineSweeper_autogen.dir

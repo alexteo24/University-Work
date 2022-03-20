@@ -1,0 +1,4 @@
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Test - Weather/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Test - Weather/cmake-build-debug/CMakeFiles/Test___Weather.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Test - Weather/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Test - Weather/cmake-build-debug/CMakeFiles/Test___Weather_autogen.dir

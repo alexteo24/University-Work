@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Lab_4_5"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_4_5">
+				<Option output="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Lab_4_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab_4_5"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Lab_4_5/fast">
+				<Option output="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Lab_4_5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Qt/Tools/mingw810_64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 Lab_4_5/fast"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Qt/Tools/mingw810_64/bin/mingw32-make.exe -f &quot;C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/Coat.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/Coat.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/TestCoat.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/TestCoat.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleAdmin/ConsoleAdmin.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleAdmin/ConsoleAdmin.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleUser/ConsoleUser.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleUser/ConsoleUser.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/DynamicArray.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/TestDynamicArray.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/TestDynamicArray.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/RepositoryCoats.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/RepositoryCoats.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/TestRepositoryCoats.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/TestRepositoryCoats.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/RepositoryShopping.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/RepositoryShopping.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/TestRepositoryShopping.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/TestRepositoryShopping.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/ServiceAdmin.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/ServiceAdmin.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/TestServiceAdmin.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/TestServiceAdmin.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/ServiceUser.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/ServiceUser.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/TestServiceUser.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/TestServiceUser.h">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Start.cpp">
+			<Option target="Lab_4_5"/>
+		</Unit>
+		<Unit filename="C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

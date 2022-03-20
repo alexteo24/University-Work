@@ -1,0 +1,4 @@
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 10/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 10/cmake-build-debug/CMakeFiles/Lab_10.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 10/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 10/cmake-build-debug/CMakeFiles/Lab_10_autogen.dir

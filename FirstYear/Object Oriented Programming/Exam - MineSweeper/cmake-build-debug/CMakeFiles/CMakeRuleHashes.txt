@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+7f999805beff53818add106876f57f3a CMakeFiles/Exam___MineSweeper_autogen

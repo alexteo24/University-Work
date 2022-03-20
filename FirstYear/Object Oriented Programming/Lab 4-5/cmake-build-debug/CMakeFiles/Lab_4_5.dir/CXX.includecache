@@ -1,0 +1,94 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/Coat.h
+string
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/TestCoat.h
+Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/Coat.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleAdmin/ConsoleAdmin.h
+../ServiceAdmin/ServiceAdmin.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/ServiceAdmin.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleUser/ConsoleUser.h
+../ServiceUser/ServiceUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/ServiceUser.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/DynamicArray.h
+stdexcept
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/TestDynamicArray.h
+../Coat/Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/Coat.h
+DynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/DynamicArray.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/RepositoryCoats.h
+../DynamicArray/DynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/DynamicArray.h
+../Coat/Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/Coat.h
+cstring
+-
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/TestRepositoryCoats.h
+RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/RepositoryCoats.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/RepositoryShopping.h
+../DynamicArray/DynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/DynamicArray.h
+../Coat/Coat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/Coat.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/TestRepositoryShopping.h
+RepositoryShopping.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/RepositoryShopping.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/ServiceAdmin.h
+../RepositoryCoats/RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/RepositoryCoats.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/TestServiceAdmin.h
+ServiceAdmin.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/ServiceAdmin.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/ServiceUser.h
+../RepositoryShopping/RepositoryShopping.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/RepositoryShopping.h
+../RepositoryCoats/RepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/RepositoryCoats.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/TestServiceUser.h
+ServiceUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/ServiceUser.h
+
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Start.cpp
+ConsoleAdmin/ConsoleAdmin.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleAdmin/ConsoleAdmin.h
+iostream
+-
+ConsoleUser/ConsoleUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ConsoleUser/ConsoleUser.h
+Coat/TestCoat.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/Coat/TestCoat.h
+DynamicArray/TestDynamicArray.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/DynamicArray/TestDynamicArray.h
+RepositoryCoats/TestRepositoryCoats.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryCoats/TestRepositoryCoats.h
+RepositoryShopping/TestRepositoryShopping.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/RepositoryShopping/TestRepositoryShopping.h
+ServiceAdmin/TestServiceAdmin.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceAdmin/TestServiceAdmin.h
+ServiceUser/TestServiceUser.h
+C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Object Oriented Programming/Lab 4-5/ServiceUser/TestServiceUser.h
+
