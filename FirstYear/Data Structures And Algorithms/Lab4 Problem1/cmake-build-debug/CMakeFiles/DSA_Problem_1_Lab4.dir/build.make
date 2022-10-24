@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2"
+CMAKE_SOURCE_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DSA_Problem_1_Lab4.dir/depend.make
@@ -67,55 +67,55 @@ include CMakeFiles/DSA_Problem_1_Lab4.dir/flags.make
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.obj: CMakeFiles/DSA_Problem_1_Lab4.dir/flags.make
 CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.obj: ../App.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\App.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\App.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\App.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\App.cpp"
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\App.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\App.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\App.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\App.cpp.i
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA_Problem_1_Lab4.dir/App.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\App.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\App.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\App.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\App.cpp.s
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.obj: CMakeFiles/DSA_Problem_1_Lab4.dir/flags.make
 CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.obj: ../ExtendedTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\ExtendedTest.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\ExtendedTest.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\ExtendedTest.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\ExtendedTest.cpp"
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\ExtendedTest.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\ExtendedTest.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\ExtendedTest.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\ExtendedTest.cpp.i
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA_Problem_1_Lab4.dir/ExtendedTest.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\ExtendedTest.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\ExtendedTest.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\ExtendedTest.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\ExtendedTest.cpp.s
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.obj: CMakeFiles/DSA_Problem_1_Lab4.dir/flags.make
 CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.obj: ../Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\Matrix.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\Matrix.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\Matrix.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\Matrix.cpp"
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\Matrix.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\Matrix.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\Matrix.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\Matrix.cpp.i
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA_Problem_1_Lab4.dir/Matrix.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\Matrix.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\Matrix.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\Matrix.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\Matrix.cpp.s
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.obj: CMakeFiles/DSA_Problem_1_Lab4.dir/flags.make
 CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.obj: ../ShortTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\ShortTest.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\ShortTest.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.obj"
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\DSA_Problem_1_Lab4.dir\ShortTest.cpp.obj -c "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\ShortTest.cpp"
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\ShortTest.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\ShortTest.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\ShortTest.cpp" > CMakeFiles\DSA_Problem_1_Lab4.dir\ShortTest.cpp.i
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DSA_Problem_1_Lab4.dir/ShortTest.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\ShortTest.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\ShortTest.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\ShortTest.cpp" -o CMakeFiles\DSA_Problem_1_Lab4.dir\ShortTest.cpp.s
 
 # Object files for target DSA_Problem_1_Lab4
 DSA_Problem_1_Lab4_OBJECTS = \
@@ -135,7 +135,7 @@ DSA_Problem_1_Lab4.exe: CMakeFiles/DSA_Problem_1_Lab4.dir/build.make
 DSA_Problem_1_Lab4.exe: CMakeFiles/DSA_Problem_1_Lab4.dir/linklibs.rsp
 DSA_Problem_1_Lab4.exe: CMakeFiles/DSA_Problem_1_Lab4.dir/objects1.rsp
 DSA_Problem_1_Lab4.exe: CMakeFiles/DSA_Problem_1_Lab4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DSA_Problem_1_Lab4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable DSA_Problem_1_Lab4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DSA_Problem_1_Lab4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -147,6 +147,6 @@ CMakeFiles/DSA_Problem_1_Lab4.dir/clean:
 .PHONY : CMakeFiles/DSA_Problem_1_Lab4.dir/clean
 
 CMakeFiles/DSA_Problem_1_Lab4.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles\DSA_Problem_1_Lab4.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug" "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles\DSA_Problem_1_Lab4.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/DSA_Problem_1_Lab4.dir/depend
 

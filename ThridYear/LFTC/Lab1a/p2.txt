@@ -1,0 +1,10 @@
+Count the number of vowels in a string
+
+declare string word = "alphabet"
+declare int count = 0
+
+for(declare int i=0; i < word.length; i++) ->
+	if(word[i] in "aeiouAEIOU") ->
+		count += 1
+	<-
+<-

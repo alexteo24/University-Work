@@ -1,0 +1,7 @@
+Compute the sum of n numbers
+
+declare list numbers = [1, 2, 3, 4]
+declare int sum = 0
+for(declare int i=0; i < numbers.length; i++) ->
+	sum += numbers[i]
+<-

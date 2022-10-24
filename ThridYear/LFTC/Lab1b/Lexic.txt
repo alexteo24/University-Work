@@ -1,0 +1,19 @@
+Alphabet:
+	- both uppercase and lowercase letters from the english alphabet (a-z A-Z)
+	- all the digits (0-9)
+
+Lexic: 
+	- operators: + - * / > >= < <= == != =
+	- separators: () [] -> <- ; space newline , " '
+	- reserved words:
+		while for if else input display int string list declare
+	- identifiers -> cannot start with a digit, cannot have any letters after digits
+		- identifier::= letter {letter} {digit}
+		- letter::= 'a' | 'b' | ... | 'z' | 'A' | 'B' | ... | 'Z'
+		- digit::= '0' | '1' | ... | '9'
+Constants:
+	-int::='0' | ["+" | "-"]non_zero_digit{digit}
+	-non_zero_digit::= '1' | '2' | ... | '9'
+	-char::="'"letter | digit"'"
+	-string::="""{char}"""
+	

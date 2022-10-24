@@ -1,4 +1,4 @@
-ToolSet: w64 6.0 (local)@C:\Qt\Tools\mingw810_64
+ToolSet: 5.0 (local)@C:\Program Files\CodeBlocks\MinGW
 Options: 
 
 Options:

@@ -1,0 +1,21 @@
+program = {statement_list}
+list_declaration=("int" | "string") "list" "["nr"]"
+type= "int" | "string" | list_declaration
+declaration= "declare" type identifier {"=" (expression | array_expression)}
+declaration_list = declaration | declaration "," declaration_list
+relation= ">" | ">=" | "<" | "<=" | "!=" | "=="
+condition= expression relation expression
+operation = "+" | "-" | "*" | "/"
+while_statement = "while" "(" condition ")" compound_statement
+if_statement = "if" "(" condition ")" compound_statement 
+io_statement= ("INPUT" | "DISPLAY) "("identifier")"
+int_expression = int | identifier | int_expression operation int_expression | "("int_expression operation int_expression ")"
+string_expression = string | identifier | string_expression "+" string_expression
+expression = int_expression | string_expression
+array_expression = "[" {expression ","} expression"]"
+assignment_statement = identifier "=" (expression | array_expression)
+statement = (declaration|assignment_statement|if_statement|while_statement|return_statement)
+statement_list = statement | statement statement_list
+compound_statemet = "->" statement_list "<-"
+return_statement = "return" expression
+

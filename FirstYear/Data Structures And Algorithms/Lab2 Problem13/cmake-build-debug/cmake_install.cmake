@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Teo/CLionProjects/DSA_Problem_13_Lab2
+# Install script for directory: C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab2 Problem13
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Teo/CLionProjects/DSA_Problem_13_Lab2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab2 Problem13/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

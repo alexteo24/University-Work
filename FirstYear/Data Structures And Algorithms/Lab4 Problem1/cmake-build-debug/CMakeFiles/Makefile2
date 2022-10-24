@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2"
+CMAKE_SOURCE_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug"
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/DSA_Problem_1_Lab4.dir/clean
 CMakeFiles/DSA_Problem_1_Lab4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA_Problem_1_Lab4.dir\build.make CMakeFiles/DSA_Problem_1_Lab4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DSA_Problem_1_Lab4.dir\build.make CMakeFiles/DSA_Problem_1_Lab4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target DSA_Problem_1_Lab4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" --progress-num=1,2,3,4,5 "Built target DSA_Problem_1_Lab4"
 .PHONY : CMakeFiles/DSA_Problem_1_Lab4.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DSA_Problem_1_Lab4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" 5
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/DSA_Problem_1_Lab4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\DSA_Problem_1_Lab4v2\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Teo\Documents\GitHub\University-Work\FirstYear\Data Structures And Algorithms\Lab4 Problem1\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/DSA_Problem_1_Lab4.dir/rule
 
 # Convenience name for target.

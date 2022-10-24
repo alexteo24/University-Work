@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/App.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/App.cpp.obj"
-  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ExtendedTest.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/ExtendedTest.cpp.obj"
-  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/Matrix.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/Matrix.cpp.obj"
-  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/ShortTest.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/DSA_Problem_1_Lab5v2/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/ShortTest.cpp.obj"
+  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/App.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/App.cpp.obj"
+  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/ExtendedTest.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/ExtendedTest.cpp.obj"
+  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/Matrix.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/Matrix.cpp.obj"
+  "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/ShortTest.cpp" "C:/Users/Teo/Documents/GitHub/University-Work/FirstYear/Data Structures And Algorithms/Lab5 Problem1/cmake-build-debug/CMakeFiles/DSA_Problem_1_Lab5v2.dir/ShortTest.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
