@@ -1,0 +1,48 @@
+https://github.com/alexteo24/University-Work/tree/main/ThridYear/LFTC/Lab3/Compiler/src
+
+As a data structure for the symbol table, I chose to implement a generic BST.
+
+It's inner class, Node, will contain as attributes data of type T and left and right of type Node.
+
+The BST has as attributes only the head of type Node, which will initially be null.
+
+//The function will add data to the BST if the data is not already present
+//data: the information we want to add to our BST
+//return -
+public void add(T data)
+
+
+//The function will search for some data.
+//data: the data we want to seach in our BST
+//return: if the data is present, return the data or null otherwise
+public T find(T data)
+
+
+//Function to build the string version of the tree
+//currentNode: the root of the BST which string version we want to build
+//-
+private void print(Node currentNode)
+
+
+//Will return a string version of the tree
+public String displayTree()
+
+
+
+
+
+As a data structure for the PIF, I had to implement a LinkedList
+
+It's inner class, Node, will contain as attributes data of type T and next of type Node.
+
+The LinkedList has as attributes only the head of type Node, which will initially be null.
+
+//The function will add data to the Linked list
+//data: the information we want to add to our Linked list
+//return -
+public void add(T data)
+
+
+//Will build and return a string version of the list
+public String displayList()
+
