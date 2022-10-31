@@ -18,31 +18,11 @@ public void add(T data)
 public T find(T data)
 
 
-//Function to build the string version of the tree
-//currentNode: the root of the BST which string version we want to build
+//Function to display the BST according to inorder traversal
+//currentNode: the root of the BST we want to display
 //-
 private void print(Node currentNode)
 
 
-//Will return a string version of the tree
-public String displayTree()
-
-
-
-
-
-As a data structure for the PIF, I had to implement a LinkedList
-
-It's inner class, Node, will contain as attributes data of type T and next of type Node.
-
-The LinkedList has as attributes only the head of type Node, which will initially be null.
-
-//The function will add data to the Linked list
-//data: the information we want to add to our Linked list
-//return -
-public void add(T data)
-
-
-//Will build and return a string version of the list
-public String displayList()
-
+//Wrapper for the print function to display the whole tree
+public void displayTree()
