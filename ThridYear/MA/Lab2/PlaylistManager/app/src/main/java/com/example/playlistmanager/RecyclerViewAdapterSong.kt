@@ -4,15 +4,15 @@ import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.AdapterView.OnItemClickListener
 import android.widget.TextView
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-class RecyclerViewAdapterSong(
-    private var values: List<Song>
-    ): ListAdapter<Song, RecyclerViewAdapterSong.MyViewHolder>(SongDiffCallBackUtil) {
 
+class RecyclerViewAdapterSong(
+    private var values: List<Song>,
+    private var context: PlaylistActivity
+    ): ListAdapter<Song, RecyclerViewAdapterSong.MyViewHolder>(SongDiffCallBackUtil) {
     private val onClickListener: View.OnClickListener = View.OnClickListener { v ->
         val item = v.tag as Song
         val intent = Intent(v.context, CreateSong::class.java)
@@ -38,7 +38,7 @@ class RecyclerViewAdapterSong(
         holder.itemView.setOnClickListener {
             val intent = Intent(holder.itemView.context, CreateSong::class.java)
             intent.putExtra("song", item)
-            holder.itemView.context.startActivity(intent)
+            context.startForResult.launch(intent)
         }
     }
 

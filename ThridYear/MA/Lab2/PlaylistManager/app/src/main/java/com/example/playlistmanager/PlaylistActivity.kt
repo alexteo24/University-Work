@@ -18,8 +18,7 @@ class PlaylistActivity : AppCompatActivity() {
     private lateinit var backButton: Button
     private lateinit var addSongButton: Button
     private lateinit var modifySongButton: Button
-    private lateinit var startForResult:
-            ActivityResultLauncher<Intent>
+    lateinit var startForResult: ActivityResultLauncher<Intent>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,7 +29,7 @@ class PlaylistActivity : AppCompatActivity() {
         songs = ArrayList()
         initializePlaylistData()
 
-        val adapterSong = RecyclerViewAdapterSong(songs)
+        val adapterSong = RecyclerViewAdapterSong(songs,this)
         recyclerViewSong.adapter = adapterSong
 
         backButton = findViewById(R.id.backButton)
