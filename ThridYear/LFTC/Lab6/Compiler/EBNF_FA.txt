@@ -1,4 +1,4 @@
-https://github.com/alexteo24/University-Work/tree/main/ThridYear/LFTC/Lab5/Compiler
+https://github.com/alexteo24/University-Work/tree/main/ThridYear/LFTC/Lab6/Compiler
 EBNF FA
 FA = "states=" STATES "\n" "alphabet=" ALPHABET "\n" "in_state=" IN_STATE "\n" "out_states=" OUT_STATE "\n" "transitions="TRANSITIONS
 STATES=STATE {", "STATE}
