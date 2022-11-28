@@ -1,0 +1,14 @@
+https://github.com/alexteo24/University-Work/tree/main/ThridYear/LFTC/Lab7/Compiler
+EBNF FA
+FA = "states=" STATES "\n" "alphabet=" ALPHABET "\n" "in_state=" IN_STATE "\n" "out_states=" OUT_STATE "\n" "transitions="TRANSITIONS
+STATES=STATE {", "STATE}
+STATE=LETTER | LETTER NR
+NR=DIGIT{DIGIT}
+DIGIT="0"|"1"|...|"9"
+ALPHABET = ELEMENT {", " ELEMENT}
+ELEMENT = "-" | "+" | LETTER | DIGIT
+LETTER = "a" | "b" | ... | "z" | "A" | ... | "Z"
+IN_STATE = STATE
+OUT_STATE = STATE"{"{", "STATE}
+TRANSITIONS = "{"TRANSITION{", " TRANSITION}"}"
+TRANSITION = "("STATE ", " STATE ", " ELEMENT")"

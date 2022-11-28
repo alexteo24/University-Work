@@ -1,0 +1,139 @@
+AssignmentStatement BeginningIdentifier Condition DeclarationStatement Digit EndIdentifier Expression Identifier IfStatement IntConstant IntExpression Letter MathematicalOperator MaybeEqual NonZeroDigit Number PositiveNumber Program RelationalOperator ReturnStatement Sign Statement String StringConstant StringExpression WhileStatement
+" ( ) * + , - / 0 1 2 3 4 5 6 7 8 9 ; < <= = == > >= A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d digit display e else epsilon f g h i if input j k l m n o p q r return s t u v w x y z
+Program
+Program -> epsilon
+Program -> Statement Program
+Statement -> DeclarationStatement
+Statement -> AssignmentStatement
+Statement -> IfStatement
+Statement -> WhileStatement
+Statement -> ReturnStatement
+AssignmentStatement -> Identifier = Expression
+AssignmentStatement -> Identifier = ArrayExpression
+Type -> int
+Type -> string
+Type -> ListDeclaration
+Declaration -> Type Identifier MaybeEqual
+DeclarationStatementStart -> declare Declaration
+DeclarationStatementInside -> , Declaration DeclarationStatementInside
+DeclarationStatement -> DeclarationStatementStart DeclarationStatementInside
+ListDeclaration -> int list [ Number ]
+ListDeclaration -> string list [ Number ]
+MaybeEqual -> = Expression
+MaybeEqual -> epsilon
+IfStatement -> if ( Condition ) -> Program <-
+IfStatement -> if ( Condition ) -> Program <- else -> Program <-
+WhileStatement -> while ( Condition ) { Program }
+Condition -> Expression RelationalOperator Expression
+ReturnStatement -> return Expression
+ReturnStatement -> return ArrayExpression
+RelationalOperator -> >
+RelationalOperator -> <
+RelationalOperator -> !=
+RelationalOperator -> ==
+RelationalOperator -> >=
+RelationalOperator -> <=
+Expression -> IntExpression
+Expression -> StringExpression
+StartArrayExpression -> [ Expression InsideArrayExpression
+InsideArrayExpression -> , Expression InsideArrayExpression
+EndArrayExpression -> ]
+ArrayExpression -> StartArrayExpression InsideArrayExpression EndArrayExpression
+IntExpression -> IntConstant
+IntExpression -> Identifier
+IntExpression -> IntExpression MathematicalOperation IntExpression
+IntExpression -> (IntExpression MathematicalOperation IntExpression)
+IntConstant -> Sign Number
+IntConstant -> 0
+Number -> NonZeroDigit PositiveNumber
+PositiveNumber -> Digit PositiveNumber
+PositiveNumber -> epsilon
+Sign -> +
+Sign -> -
+Sign -> epsilon
+StringExpression -> StringConstant
+StringExpression -> Identifier
+StringExpression -> StringExpression + StringExpression
+StringConstant -> "String"
+String -> Letter String
+String -> Digit String
+String -> epsilon
+BeginningIdentifier -> Letter BeginningIdentifier
+EndIdentifier -> Digit + EndIdentifier
+EndIdentifier -> epsilon
+Identifier -> BeginningIdentifier EndIdentifier
+Letter -> a
+Letter -> b
+Letter -> c
+Letter -> d
+Letter -> e
+Letter -> f
+Letter -> g
+Letter -> h
+Letter -> i
+Letter -> j
+Letter -> k
+Letter -> l
+Letter -> m
+Letter -> n
+Letter -> o
+Letter -> p
+Letter -> q
+Letter -> r
+Letter -> s
+Letter -> t
+Letter -> u
+Letter -> v
+Letter -> w
+Letter -> x
+Letter -> y
+Letter -> z
+Letter -> A
+Letter -> B
+Letter -> C
+Letter -> D
+Letter -> E
+Letter -> F
+Letter -> G
+Letter -> H
+Letter -> I
+Letter -> J
+Letter -> K
+Letter -> L
+Letter -> M
+Letter -> N
+Letter -> O
+Letter -> P
+Letter -> Q
+Letter -> R
+Letter -> S
+Letter -> T
+Letter -> U
+Letter -> V
+Letter -> W
+Letter -> X
+Letter -> Y
+Letter -> Z
+Digit -> 0
+Digit -> 1
+Digit -> 2
+Digit -> 3
+Digit -> 4
+Digit -> 5
+Digit -> 6
+Digit -> 7
+Digit -> 8
+Digit -> 9
+NonZeroDigit -> 1
+NonZeroDigit -> 2
+NonZeroDigit -> 3
+NonZeroDigit -> 4
+NonZeroDigit -> 5
+NonZeroDigit -> 6
+NonZeroDigit -> 7
+NonZeroDigit -> 8
+NonZeroDigit -> 9
+MathematicalOperation -> +
+MathematicalOperation -> -
+MathematicalOperation -> *
+MathematicalOperation -> /
