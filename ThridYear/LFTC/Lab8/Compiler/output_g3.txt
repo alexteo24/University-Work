@@ -1,0 +1,8 @@
+SR
+A S SR
+a b c
+A -> bA | c
+S -> aA
+SR -> .S
+
+[[SR->S.], [S->aA.], [SR->.S, S->.aA], [A->c.], [S->a.A, A->.bA, A->.c], [A->b.A, A->.bA, A->.c], [A->bA.]]

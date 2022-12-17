@@ -1,0 +1,9 @@
+declare string word = "alphabet"
+declare int count = 0
+declare int i=0
+while(i < word.length) ->
+    if(word[i] in "aeiouAEIOU") ->
+        count += 1
+    <-
+    i = i + 1
+<-
