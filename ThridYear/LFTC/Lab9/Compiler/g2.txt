@@ -1,0 +1,34 @@
+compound_statement statement assignment_statement if_statement while_statement declaration_statement type factor expression condition relation term
+; { } ( ) ID INT_CONST STR_CONST if else while < <= == != > >= = + - * / % declare int str
+compound_statement
+compound_statement -> statement ;
+compound_statement -> statement ; compound_statement
+statement -> assignment_statement
+statement -> if_statement
+statement -> while_statement
+statement -> for_statement
+statement -> declaration_statement
+expression -> expression + term
+expression -> expression - term
+expression -> term
+term -> term * factor
+term -> term / factor
+term -> term % factor
+term -> factor
+factor -> ( expression )
+factor -> ID
+factor -> INT_CONST
+assignment_statement -> ID = expression
+declaration_statement -> declare type assignment_statement
+type -> int
+type -> str
+if_statement -> if ( condition ) { compound_statement }
+if_statement -> if ( condition ) { compound_statement } else { compound_statement }
+while_statement -> while ( condition ) { compound_statement }
+relation -> <
+relation -> <=
+relation -> ==
+relation -> !=
+relation -> >=
+relation -> >
+condition -> expression relation expression

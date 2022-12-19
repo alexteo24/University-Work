@@ -1,0 +1,8 @@
+ParentSiblingNode{info='S', parent=-1, rightSibling=-1}
+ParentSiblingNode{info='a', parent=0, rightSibling=2}
+ParentSiblingNode{info='A', parent=0, rightSibling=-1}
+ParentSiblingNode{info='b', parent=2, rightSibling=4}
+ParentSiblingNode{info='A', parent=2, rightSibling=-1}
+ParentSiblingNode{info='b', parent=4, rightSibling=6}
+ParentSiblingNode{info='A', parent=4, rightSibling=-1}
+ParentSiblingNode{info='c', parent=6, rightSibling=-1}
